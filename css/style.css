@@ -1,0 +1,41 @@
+body {
+  background: lightgoldenrodyellow;
+  color: #fff;
+}
+#container {
+  width:60%;
+  background: yellowgreen;
+  margin:20px auto;
+  padding: 25px;
+  border-radius: 5px;
+}
+header {
+  text-align: center;
+  border-bottom: #fff dashed 1px;
+}
+#results h3 {
+  background: lightgoldenrodyellow;
+  color: olivedrab;
+  padding: 10px;
+  margin: 10px 0;
+}
+#results span {
+  color: #000;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+}
+input[type="submit"] {
+  background: lightgoldenrodyellow;
+  color: olivedrab;
+  cursor: pointer;
+  height: 35px;
+
+}
+@media(max-width:320px) {
+  #container {
+    padding: 15px;
+    width:70%;
+    }
+}
